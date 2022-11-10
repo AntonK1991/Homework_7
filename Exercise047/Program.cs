@@ -1,7 +1,7 @@
 ﻿// Задача 47. Задайте двумерный массив размером m×n, 
 // заполненный случайными вещественными числами.
 
-double[,] CreateFillPrintArray(int row, int col)
+void CreateFillPrintArray(int row, int col)
 {
     Console.WriteLine();
     Console.WriteLine("Задан массив случайных чисел: ");
@@ -31,9 +31,8 @@ double[,] CreateFillPrintArray(int row, int col)
     double[,] array = new double[row, col];
     RandomFillArray(array);
     PrintArray(array);
-    return array;
 }
 
-int n = 4;
 int m = 3;
+int n = 4;
 CreateFillPrintArray(m, n);

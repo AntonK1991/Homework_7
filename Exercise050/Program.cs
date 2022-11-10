@@ -61,7 +61,6 @@ void FindElement(int[,] array)
                     {
                         int result = array[i, j];
                         Console.WriteLine("Значение элемента массива - " + result);
-                        break;
                     }
                 }
             }
